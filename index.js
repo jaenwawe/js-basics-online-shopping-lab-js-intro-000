@@ -79,9 +79,10 @@ function removeFromCart(item) {
     cart.splice(i, item)
       
     
-     if (cart[(cart.length) - 1 ])
-     return notHere
+   //  if (cart[(cart.length) - 1 ])
+   //  return notHere
   }
+    return notHere
 }
 
 function placeOrder(cardNumber) {
