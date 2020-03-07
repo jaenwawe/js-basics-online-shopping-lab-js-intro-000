@@ -75,7 +75,7 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++)
   {
     
-    cart.splice(cart.findIndex(i => i.itemName === item))
+    cart.splice(cart.findIndex(i => cart[i].itemName === item))
  
     if(cart[i].itemName === item)
     cart.slice(i, item)
