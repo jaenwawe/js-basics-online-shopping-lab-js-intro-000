@@ -71,7 +71,7 @@ return sum
 
 function removeFromCart(item) {
   // write your code here
-  var notHere 'That item is not in your cart.'
+  var notHere = 'That item is not in your cart.'
   for (var i = 0; i < cart.length; i++)
   {
  
