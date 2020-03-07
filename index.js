@@ -74,11 +74,8 @@ function removeFromCart(item) {
   var notHere = 'That item is not in your cart.'
   for (var i = 0; i < cart.length; i++)
   {
-    
-    cart.splice(cart.findIndex(cart[i].itemName === item))
- 
     if(cart[i].itemName === item)
-    cart.slice(i, item)
+    cart.splice(i,0, item)
 
   }
     return notHere
